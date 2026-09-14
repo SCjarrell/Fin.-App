@@ -12,14 +12,32 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Select Xcode
-        run: sudo xcode-select -s /Applications/Xcode_16.app/Contents/Developer
-
       - name: Show Xcode version
         run: xcodebuild -version
 
-      - name: List available simulators
-        run: xcrun simctl list devicetypes
+      - name: Find an installed, bootable iOS simulator
+        id: sim
+        run: |
+          UDID=$(xcrun simctl list devices available -j | python3 -c "
+          import json, sys
+          data = json.load(sys.stdin)
+          candidates = []
+          for runtime, devices in data['devices'].items():
+              if 'iOS' not in runtime:
+                  continue
+              for d in devices:
+                  if d.get('isAvailable') and 'iPhone' in d.get('name', ''):
+                      candidates.append((runtime, d))
+          if not candidates:
+              sys.exit('No available iOS iPhone simulator found on this runner')
+          # Prefer the newest iOS runtime available.
+          candidates.sort(key=lambda c: c[0])
+          runtime, device = candidates[-1]
+          name = device['name']
+          print('Using', repr(name), 'on', runtime, file=sys.stderr)
+          print(device['udid'])
+          ")
+          echo "udid=$UDID" >> "$GITHUB_OUTPUT"
 
       - name: Build and test
         working-directory: DebtCompass
@@ -28,7 +46,7 @@ jobs:
           xcodebuild \
             -project DebtCompass.xcodeproj \
             -scheme DebtCompass \
-            -destination 'platform=iOS Simulator,name=iPhone 16,OS=latest' \
+            -destination 'platform=iOS Simulator,id=${{ steps.sim.outputs.udid }}' \
             clean build test \
             CODE_SIGNING_ALLOWED=NO \
             | tee build.log | (command -v xcbeautify >/dev/null && xcbeautify || cat)
