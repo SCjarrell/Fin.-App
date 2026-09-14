@@ -48,8 +48,8 @@ function DebtForm({ debt, onChange }: { debt: Debt; onChange: (d: Debt) => void 
       <label>
         Interest Rate (APR %)
         <CurrencyInput
-          value={debt.apr * 100}
-          onChange={(v) => onChange({ ...debt, apr: v / 100 })}
+          value={Math.round(debt.apr * 100 * 1e6) / 1e6}
+          onChange={(v) => onChange({ ...debt, apr: Math.round((v / 100) * 1e8) / 1e8 })}
         />
       </label>
 
