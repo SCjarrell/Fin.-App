@@ -1,0 +1,1040 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+		0424EB6A49494501B9740BE5 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "folder.assetcatalog";
+			path = "Assets.xcassets";
+			sourceTree = "<group>";
+		};
+		05D708EA6D2245C5AAF1A670 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = "PBXFrameworksBuildPhase";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D59FB67279457180ED7CD4 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "PaystubEntryView.swift";
+			sourceTree = "<group>";
+		};
+		09FDF873BC0C46B89112CCB3 = {
+			fileRef = 1903049B28644DDAA09D9099;
+			isa = "PBXBuildFile";
+		};
+		0BE26E15BB1E4E4BABE3EA67 = {
+			attributes = {
+			BuildIndependentTargetsInParallel = YES;
+			LastSwiftUpdateCheck = 1500;
+			LastUpgradeCheck = 1500;
+			TargetAttributes = {
+				7B8706D853C0413DA6D793E6 = {
+					CreatedOnToolsVersion = "15.0";
+				};
+				AFEB3288F9984C1DA75E623F = {
+					CreatedOnToolsVersion = "15.0";
+					TestTargetID = 7B8706D853C0413DA6D793E6;
+				};
+			};
+		};
+			buildConfigurationList = BD29EDDDC12041009962B3F6;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "en";
+			hasScannedForEncodings = 0;
+			isa = "PBXProject";
+			knownRegions = (
+			"en",
+			"Base",
+		);
+			mainGroup = EACCDFC03142454B9ABF972F;
+			productRefGroup = E452327A8CDE441AB2F86DF1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			7B8706D853C0413DA6D793E6,
+			AFEB3288F9984C1DA75E623F,
+		);
+		};
+		1388DA6E4AE34B38A9EEF7E0 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "ExpensesListView.swift";
+			sourceTree = "<group>";
+		};
+		184FA6A6DCF9443F809BA96B = {
+			children = (
+			0424EB6A49494501B9740BE5,
+			A03EA79806344FAE90E38ED2,
+			BFE78DFBEA634A21AA6EE9C4,
+			8376D50EC1AD4D28A6CA664C,
+			8F664D77EEEE4B8BB28CB3EE,
+			5F6F27DDD83A4269B2ABF215,
+		);
+			isa = "PBXGroup";
+			path = "DebtCompass";
+			sourceTree = "<group>";
+		};
+		18EE8C3BE49040C39FBA1F96 = {
+			fileRef = E57B2039BA3340789F9A7E39;
+			isa = "PBXBuildFile";
+		};
+		1903049B28644DDAA09D9099 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "ContentView.swift";
+			sourceTree = "<group>";
+		};
+		1A9C7FE65C7E4303A374E264 = {
+			fileRef = 711873936A1B4DB69BDAB44D;
+			isa = "PBXBuildFile";
+		};
+		1BBF9411AF4D4912BDCCBADC = {
+			children = (
+			8DC54403A77B43A38EDD80EA,
+			9DC9E61319E140CBA3E8E48B,
+		);
+			isa = "PBXGroup";
+			path = "Dashboard";
+			sourceTree = "<group>";
+		};
+		1EF042E311C94270BF2570C3 = {
+			fileRef = DD73C781C26349DF925EA440;
+			isa = "PBXBuildFile";
+		};
+		23DE957C62CB44D085721611 = {
+			fileRef = F83D80D6561B460EBAD07C9F;
+			isa = "PBXBuildFile";
+		};
+		242369F0E33640EEBA614CBE = {
+			children = (
+			F83D80D6561B460EBAD07C9F,
+			AC14DB9F176A48D092DB9F0A,
+			A7F61BEE8786478F9804DB63,
+		);
+			isa = "PBXGroup";
+			path = "DebtCompassTests";
+			sourceTree = "<group>";
+		};
+		268BD3856F984882AF6E952E = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "ExpenseCategory.swift";
+			sourceTree = "<group>";
+		};
+		2F5D643CA1904C4698498AA0 = {
+			buildConfigurations = (
+			EB8C50917E984E0F97DBAAF1,
+			AE9D85014B834A8D9112D9C2,
+		);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+			isa = "XCConfigurationList";
+		};
+		2FAB83EB70184E3983116B0F = {
+			fileRef = 0424EB6A49494501B9740BE5;
+			isa = "PBXBuildFile";
+		};
+		3269CF5C8C4D40E1892E9F26 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "PayoffStrategy.swift";
+			sourceTree = "<group>";
+		};
+		38BA989A438F43D8B9299FFC = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Expense.swift";
+			sourceTree = "<group>";
+		};
+		3A8012DC953B4FC6B85E6B02 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = "PBXFrameworksBuildPhase";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA9EA969BAB4B9BBD8C8CCC = {
+			buildActionMask = 2147483647;
+			files = (
+			2FAB83EB70184E3983116B0F,
+		);
+			isa = "PBXResourcesBuildPhase";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB83CED245F44709563D8CF = {
+			fileRef = 8DC54403A77B43A38EDD80EA;
+			isa = "PBXBuildFile";
+		};
+		430D17046B3F40789B27F6EE = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "DebtType.swift";
+			sourceTree = "<group>";
+		};
+		47435878BFB644239DAB370A = {
+			fileRef = 8E50E879C53D47B5ACF99ED5;
+			isa = "PBXBuildFile";
+		};
+		4750E21DF1F14BB38614FAFD = {
+			fileRef = AED1F430AD57453883F8C412;
+			isa = "PBXBuildFile";
+		};
+		50D3DC3F4BD2415492D31029 = {
+			isa = "PBXTargetDependency";
+			target = 7B8706D853C0413DA6D793E6;
+			targetProxy = 914AB7AEE8AD48DBBA3756B5;
+		};
+		561947453F0849D0B54D4992 = {
+			fileRef = AC14DB9F176A48D092DB9F0A;
+			isa = "PBXBuildFile";
+		};
+		578AC2CB5F0E4FCDBC84A2AE = {
+			fileRef = 3269CF5C8C4D40E1892E9F26;
+			isa = "PBXBuildFile";
+		};
+		587D9BDCE823409794158A6E = {
+			fileRef = B8780B1C422A444EBFDF5958;
+			isa = "PBXBuildFile";
+		};
+		5A1A15633AE74D3CBA4024D0 = {
+			fileRef = 38BA989A438F43D8B9299FFC;
+			isa = "PBXBuildFile";
+		};
+		5ECEE06DCAE147CDAB87CBDC = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Paystub.swift";
+			sourceTree = "<group>";
+		};
+		5F6F27DDD83A4269B2ABF215 = {
+			children = (
+			1903049B28644DDAA09D9099,
+			1BBF9411AF4D4912BDCCBADC,
+			BB1C5A859F5B44D8B86109E2,
+			AC83CBC4166240A580B51E45,
+			962911FD09C543E7BEFCBF97,
+			894AE98044FE41B0B01530EC,
+		);
+			isa = "PBXGroup";
+			path = "Views";
+			sourceTree = "<group>";
+		};
+		5F8C19036151491CAC8D810F = {
+			fileRef = A7F61BEE8786478F9804DB63;
+			isa = "PBXBuildFile";
+		};
+		61003FB61A0341659A6E173C = {
+			fileRef = 9DC9E61319E140CBA3E8E48B;
+			isa = "PBXBuildFile";
+		};
+		68522C61EF0A40A6A6DB7533 = {
+			fileRef = 430D17046B3F40789B27F6EE;
+			isa = "PBXBuildFile";
+		};
+		6976E318A9EF4E8B871386CA = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "AddEditExpenseView.swift";
+			sourceTree = "<group>";
+		};
+		6AF8E8093B13444E9C3AAB90 = {
+			fileRef = 6CA4486CC7BB4E27B49630F8;
+			isa = "PBXBuildFile";
+		};
+		6CA4486CC7BB4E27B49630F8 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "DebtsListView.swift";
+			sourceTree = "<group>";
+		};
+		706497C0E5024BCFB0601F3C = {
+			fileRef = A03EA79806344FAE90E38ED2;
+			isa = "PBXBuildFile";
+		};
+		711873936A1B4DB69BDAB44D = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Debt.swift";
+			sourceTree = "<group>";
+		};
+		7204284658FC400C97E7D880 = {
+			fileRef = 99A77DB10BC24AF28189A4E9;
+			isa = "PBXBuildFile";
+		};
+		798EE49C51944E9DAB2B0112 = {
+			explicitFileType = "wrapper.application";
+			includeInIndex = 0;
+			isa = "PBXFileReference";
+			path = "DebtCompass.app";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		7B8706D853C0413DA6D793E6 = {
+			buildConfigurationList = DAEF787E3AA34CC794EE96A8;
+			buildPhases = (
+			896B8E77B88A43F889027CA5,
+			3A8012DC953B4FC6B85E6B02,
+			3BA9EA969BAB4B9BBD8C8CCC,
+		);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			isa = "PBXNativeTarget";
+			name = "DebtCompass";
+			productName = "DebtCompass";
+			productReference = 798EE49C51944E9DAB2B0112;
+			productType = "com.apple.product-type.application";
+		};
+		8376D50EC1AD4D28A6CA664C = {
+			children = (
+			D4E90050F8FB4E218530F536,
+		);
+			isa = "PBXGroup";
+			path = "Extensions";
+			sourceTree = "<group>";
+		};
+		894AE98044FE41B0B01530EC = {
+			children = (
+			CDDE552E7AD84BAFAA4F8284,
+			99A77DB10BC24AF28189A4E9,
+		);
+			isa = "PBXGroup";
+			path = "Strategies";
+			sourceTree = "<group>";
+		};
+		896B8E77B88A43F889027CA5 = {
+			buildActionMask = 2147483647;
+			files = (
+			706497C0E5024BCFB0601F3C,
+			1EF042E311C94270BF2570C3,
+			F64898BB64DE4011A27E7381,
+			578AC2CB5F0E4FCDBC84A2AE,
+			B910D4D3D8B44654A7D5FB09,
+			1A9C7FE65C7E4303A374E264,
+			68522C61EF0A40A6A6DB7533,
+			47435878BFB644239DAB370A,
+			5A1A15633AE74D3CBA4024D0,
+			E0B7AA1FD3CE45E2A9150BBA,
+			18EE8C3BE49040C39FBA1F96,
+			89990E5AFAD64A7AB59F27F9,
+			09FDF873BC0C46B89112CCB3,
+			3DB83CED245F44709563D8CF,
+			61003FB61A0341659A6E173C,
+			4750E21DF1F14BB38614FAFD,
+			6AF8E8093B13444E9C3AAB90,
+			C168E24DB9B2483BBF105AC1,
+			CF51577088004EE38796E2BD,
+			587D9BDCE823409794158A6E,
+			FF4B7964272045EA93198FE8,
+			FE2D9FE8CAA84BC495EF5E2A,
+			7204284658FC400C97E7D880,
+		);
+			isa = "PBXSourcesBuildPhase";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89990E5AFAD64A7AB59F27F9 = {
+			fileRef = 5ECEE06DCAE147CDAB87CBDC;
+			isa = "PBXBuildFile";
+		};
+		8DC54403A77B43A38EDD80EA = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "DashboardView.swift";
+			sourceTree = "<group>";
+		};
+		8E50E879C53D47B5ACF99ED5 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "DeductionItem.swift";
+			sourceTree = "<group>";
+		};
+		8F664D77EEEE4B8BB28CB3EE = {
+			children = (
+			711873936A1B4DB69BDAB44D,
+			430D17046B3F40789B27F6EE,
+			8E50E879C53D47B5ACF99ED5,
+			38BA989A438F43D8B9299FFC,
+			268BD3856F984882AF6E952E,
+			E57B2039BA3340789F9A7E39,
+			5ECEE06DCAE147CDAB87CBDC,
+		);
+			isa = "PBXGroup";
+			path = "Models";
+			sourceTree = "<group>";
+		};
+		914AB7AEE8AD48DBBA3756B5 = {
+			containerPortal = 0BE26E15BB1E4E4BABE3EA67;
+			isa = "PBXContainerItemProxy";
+			proxyType = 1;
+			remoteGlobalIDString = 7B8706D853C0413DA6D793E6;
+			remoteInfo = "DebtCompass";
+		};
+		962911FD09C543E7BEFCBF97 = {
+			children = (
+			B8780B1C422A444EBFDF5958,
+			06D59FB67279457180ED7CD4,
+		);
+			isa = "PBXGroup";
+			path = "Income";
+			sourceTree = "<group>";
+		};
+		99A77DB10BC24AF28189A4E9 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "StrategyDetailView.swift";
+			sourceTree = "<group>";
+		};
+		9DC9E61319E140CBA3E8E48B = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "SummaryCardViews.swift";
+			sourceTree = "<group>";
+		};
+		A03EA79806344FAE90E38ED2 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "DebtCompassApp.swift";
+			sourceTree = "<group>";
+		};
+		A07F18BCA15146349AF8A8ED = {
+			explicitFileType = "wrapper.cfbundle";
+			includeInIndex = 0;
+			isa = "PBXFileReference";
+			path = "DebtCompassTests.xctest";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		A53C18934A7C4C11A9DD12A4 = {
+			buildActionMask = 2147483647;
+			files = (
+			23DE957C62CB44D085721611,
+			561947453F0849D0B54D4992,
+			5F8C19036151491CAC8D810F,
+		);
+			isa = "PBXSourcesBuildPhase";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F61BEE8786478F9804DB63 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "PaystubTests.swift";
+			sourceTree = "<group>";
+		};
+		AAA330E866404F608206C1EE = {
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = "gnu17";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			isa = "XCBuildConfiguration";
+			name = "Debug";
+		};
+		AC14DB9F176A48D092DB9F0A = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "DebtPayoffEngineTests.swift";
+			sourceTree = "<group>";
+		};
+		AC83CBC4166240A580B51E45 = {
+			children = (
+			6976E318A9EF4E8B871386CA,
+			1388DA6E4AE34B38A9EEF7E0,
+		);
+			isa = "PBXGroup";
+			path = "Expenses";
+			sourceTree = "<group>";
+		};
+		AE9D85014B834A8D9112D9C2 = {
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = "Automatic";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = "gnu17";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.debtcompass.app.DebtCompassTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = "iphoneos";
+				SWIFT_COMPILATION_MODE = "wholemodule";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DebtCompass.app/DebtCompass";
+				VALIDATE_PRODUCT = YES;
+			};
+			isa = "XCBuildConfiguration";
+			name = "Release";
+		};
+		AED1F430AD57453883F8C412 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "AddEditDebtView.swift";
+			sourceTree = "<group>";
+		};
+		AFEB3288F9984C1DA75E623F = {
+			buildConfigurationList = 2F5D643CA1904C4698498AA0;
+			buildPhases = (
+			A53C18934A7C4C11A9DD12A4,
+			05D708EA6D2245C5AAF1A670,
+			E432181BAC284BC9A83972C1,
+		);
+			buildRules = (
+			);
+			dependencies = (
+			50D3DC3F4BD2415492D31029,
+		);
+			isa = "PBXNativeTarget";
+			name = "DebtCompassTests";
+			productName = "DebtCompassTests";
+			productReference = A07F18BCA15146349AF8A8ED;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8780B1C422A444EBFDF5958 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "IncomeListView.swift";
+			sourceTree = "<group>";
+		};
+		B910D4D3D8B44654A7D5FB09 = {
+			fileRef = D4E90050F8FB4E218530F536;
+			isa = "PBXBuildFile";
+		};
+		BB1C5A859F5B44D8B86109E2 = {
+			children = (
+			AED1F430AD57453883F8C412,
+			6CA4486CC7BB4E27B49630F8,
+		);
+			isa = "PBXGroup";
+			path = "Debts";
+			sourceTree = "<group>";
+		};
+		BD29EDDDC12041009962B3F6 = {
+			buildConfigurations = (
+			AAA330E866404F608206C1EE,
+			CA102D762F1B4AA28265EDF0,
+		);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+			isa = "XCConfigurationList";
+		};
+		BFE78DFBEA634A21AA6EE9C4 = {
+			children = (
+			DD73C781C26349DF925EA440,
+			C4A956D233E64B34B8DAFEBF,
+			3269CF5C8C4D40E1892E9F26,
+		);
+			isa = "PBXGroup";
+			path = "Engine";
+			sourceTree = "<group>";
+		};
+		C168E24DB9B2483BBF105AC1 = {
+			fileRef = 6976E318A9EF4E8B871386CA;
+			isa = "PBXBuildFile";
+		};
+		C4A956D233E64B34B8DAFEBF = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "DebtPayoffEngine.swift";
+			sourceTree = "<group>";
+		};
+		CA102D762F1B4AA28265EDF0 = {
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = "gnu17";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = "iphoneos";
+				SWIFT_COMPILATION_MODE = "wholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			isa = "XCBuildConfiguration";
+			name = "Release";
+		};
+		CDDE552E7AD84BAFAA4F8284 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "StrategyComparisonView.swift";
+			sourceTree = "<group>";
+		};
+		CF51577088004EE38796E2BD = {
+			fileRef = 1388DA6E4AE34B38A9EEF7E0;
+			isa = "PBXBuildFile";
+		};
+		D4E90050F8FB4E218530F536 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Double+Currency.swift";
+			sourceTree = "<group>";
+		};
+		DAEF787E3AA34CC794EE96A8 = {
+			buildConfigurations = (
+			F696719FAE424F63B9C05AFC,
+			FC65647FF2D94B9BBD254EEE,
+		);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+			isa = "XCConfigurationList";
+		};
+		DD73C781C26349DF925EA440 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "BudgetCalculator.swift";
+			sourceTree = "<group>";
+		};
+		E0B7AA1FD3CE45E2A9150BBA = {
+			fileRef = 268BD3856F984882AF6E952E;
+			isa = "PBXBuildFile";
+		};
+		E432181BAC284BC9A83972C1 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = "PBXResourcesBuildPhase";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E452327A8CDE441AB2F86DF1 = {
+			children = (
+			798EE49C51944E9DAB2B0112,
+			A07F18BCA15146349AF8A8ED,
+		);
+			isa = "PBXGroup";
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		E57B2039BA3340789F9A7E39 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "PayFrequency.swift";
+			sourceTree = "<group>";
+		};
+		EACCDFC03142454B9ABF972F = {
+			children = (
+			184FA6A6DCF9443F809BA96B,
+			242369F0E33640EEBA614CBE,
+			E452327A8CDE441AB2F86DF1,
+		);
+			isa = "PBXGroup";
+			sourceTree = "<group>";
+		};
+		EB8C50917E984E0F97DBAAF1 = {
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = "Automatic";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = "gnu17";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.debtcompass.app.DebtCompassTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = "iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DebtCompass.app/DebtCompass";
+			};
+			isa = "XCBuildConfiguration";
+			name = "Debug";
+		};
+		F64898BB64DE4011A27E7381 = {
+			fileRef = C4A956D233E64B34B8DAFEBF;
+			isa = "PBXBuildFile";
+		};
+		F696719FAE424F63B9C05AFC = {
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "AccentColor";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = "Automatic";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = "gnu17";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "DebtCompass";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = (
+					"UIInterfaceOrientationPortrait",
+					"UIInterfaceOrientationLandscapeLeft",
+					"UIInterfaceOrientationLandscapeRight",
+				);
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations~ipad" = (
+					"UIInterfaceOrientationPortrait",
+					"UIInterfaceOrientationPortraitUpsideDown",
+					"UIInterfaceOrientationLandscapeLeft",
+					"UIInterfaceOrientationLandscapeRight",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.debtcompass.app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = "iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			isa = "XCBuildConfiguration";
+			name = "Debug";
+		};
+		F83D80D6561B460EBAD07C9F = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "BudgetCalculatorTests.swift";
+			sourceTree = "<group>";
+		};
+		FC65647FF2D94B9BBD254EEE = {
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "AccentColor";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = "Automatic";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = "gnu17";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "DebtCompass";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = (
+					"UIInterfaceOrientationPortrait",
+					"UIInterfaceOrientationLandscapeLeft",
+					"UIInterfaceOrientationLandscapeRight",
+				);
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations~ipad" = (
+					"UIInterfaceOrientationPortrait",
+					"UIInterfaceOrientationPortraitUpsideDown",
+					"UIInterfaceOrientationLandscapeLeft",
+					"UIInterfaceOrientationLandscapeRight",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.debtcompass.app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = "iphoneos";
+				SWIFT_COMPILATION_MODE = "wholemodule";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			isa = "XCBuildConfiguration";
+			name = "Release";
+		};
+		FE2D9FE8CAA84BC495EF5E2A = {
+			fileRef = CDDE552E7AD84BAFAA4F8284;
+			isa = "PBXBuildFile";
+		};
+		FF4B7964272045EA93198FE8 = {
+			fileRef = 06D59FB67279457180ED7CD4;
+			isa = "PBXBuildFile";
+		};
+	};
+	rootObject = 0BE26E15BB1E4E4BABE3EA67;
+}

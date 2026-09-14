@@ -1,0 +1,7 @@
+# Xcode
+DebtCompass/DebtCompass.xcodeproj/xcuserdata/
+DebtCompass/DebtCompass.xcodeproj/project.xcworkspace/xcuserdata/
+DebtCompass/DebtCompass.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+DerivedData/
+*.xcuserstate
+.DS_Store
