@@ -1,8 +1,19 @@
 # DebtCompass
 
-A native iOS/iPadOS app (SwiftUI + SwiftData) that helps you get out of debt: track
-income and expenses, see your real monthly cash flow, and compare debt avalanche,
-debt snowball, and velocity banking payoff strategies side by side.
+An app that helps you get out of debt: track income and expenses, see your
+real monthly cash flow, and compare debt avalanche, debt snowball, and
+velocity banking payoff strategies side by side.
+
+There are two implementations, sharing the same calculations and behavior:
+
+- **`DebtCompass/`** — a native iOS/iPadOS app (SwiftUI + SwiftData).
+- **`web/`** — a browser-based version (React + TypeScript) that runs on
+  **Windows, macOS, Linux, or mobile** — anywhere a modern browser runs. No
+  install, no account; data is stored locally in the browser. See
+  [`web/README.md`](web/README.md) for how to run or deploy it.
+
+The rest of this document describes the shared feature set and the details
+specific to the iOS app; the web app's own README covers its setup.
 
 ## Features
 
@@ -45,7 +56,7 @@ debt snowball, and velocity banking payoff strategies side by side.
 ## Project Structure
 
 ```
-DebtCompass/
+DebtCompass/                     iOS app (SwiftUI + SwiftData)
   DebtCompass.xcodeproj/        Xcode project (open this in Xcode)
   DebtCompass/
     DebtCompassApp.swift        App entry point, SwiftData model container
@@ -60,14 +71,18 @@ DebtCompass/
       Strategies/               Strategy comparison + month-by-month schedule
   DebtCompassTests/             XCTest coverage for payroll math, budget
                                  aggregation, and the payoff simulations
+
+web/                            Browser app (React + TypeScript) — see web/README.md
+  src/models/, src/engine/      Same models/formulas as the iOS app, ported 1:1
+  src/pages/, src/components/   Dashboard, Income, Expenses, Debts, Strategies
 ```
 
-## Requirements
+## iOS: Requirements
 
 - Xcode 15 or later
 - iOS 17+ (the app uses SwiftData, which requires iOS 17)
 
-## Getting Started
+## iOS: Getting Started
 
 1. Open `DebtCompass/DebtCompass.xcodeproj` in Xcode.
 2. Select the `DebtCompass` scheme and a simulator (or your device).
@@ -77,6 +92,13 @@ DebtCompass/
 
 All data is stored locally on-device via SwiftData — nothing is sent to a
 server, and none of this constitutes financial, investment, or tax advice.
+
+## Windows / any other platform
+
+Use the web app in `web/` — see [`web/README.md`](web/README.md). It runs
+with `npm install && npm run dev` on Windows, macOS, or Linux (Node.js
+required), or can be deployed as a static site (GitHub Pages workflow
+included) so it's reachable from just a URL, no installation at all.
 
 ## How the numbers work
 
