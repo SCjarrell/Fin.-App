@@ -100,6 +100,11 @@ with `npm install && npm run dev` on Windows, macOS, or Linux (Node.js
 required), or can be deployed as a static site (GitHub Pages workflow
 included) so it's reachable from just a URL, no installation at all.
 
+It's also a Progressive Web App: on a phone, opening the live site and
+using the browser's "Add to Home Screen" / "Install app" option gives a
+standalone app icon with no browser UI, with offline support — no app
+store required. See the web README for the exact steps.
+
 ## How the numbers work
 
 - **Overtime** is always base hourly rate × 1.5, applied to overtime hours

@@ -2,12 +2,31 @@
 
 A browser-based version of the DebtCompass debt payoff planner — same income,
 expense, debt, and payoff-strategy logic as the iOS app, running anywhere a
-modern browser runs (Windows, macOS, Linux, ChromeOS, mobile). No install,
-no account, no server: all data is stored locally in the browser via
-`localStorage` and never leaves the device.
+modern browser runs (Windows, macOS, Linux, ChromeOS, mobile). No account,
+no server: all data is stored locally in the browser via `localStorage` and
+never leaves the device.
+
+It's also a **Progressive Web App (PWA)**: it can be installed to a phone's
+home screen as a standalone app — its own icon, its own window with no
+browser address bar, and it keeps working offline — without going through
+an app store. See [Installing it as an app on your phone](#installing-it-as-an-app-on-your-phone)
+below.
 
 See the [repo-level README](../README.md) for what the app does. This
 document covers only how to run and build the web version.
+
+## Installing it as an app on your phone
+
+Open the live site in your phone's browser: **https://scjarrell.github.io/Fin.-App/**
+
+- **iPhone/iPad (Safari):** tap the Share icon → **Add to Home Screen** → **Add**.
+- **Android (Chrome):** tap the ⋮ menu → **Install app** (or **Add to Home
+  screen**), or tap the install banner Chrome shows automatically.
+
+Either way you get a DebtCompass icon that opens full-screen with no browser
+UI, and the app keeps working without a connection once it's been opened at
+least once (data still lives only in that phone's local storage — it does
+not sync between devices).
 
 ## Requirements
 
